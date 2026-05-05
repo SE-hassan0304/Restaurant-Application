@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>My Restaurant</h1>
+
+    <div id="menu">
+        <h2>Menu</h2>
+        <div class="item">
+            <p>Burger - $5</p>
+            <button onclick="addToCart('Burger', 5)">Add</button>
+        </div>
+
+        <div class="item">
+            <p>Pizza - $8</p>
+            <button onclick="addToCart('Pizza', 8)">Add</button>
+        </div>
+
+        <div class="item">
+            <p>Pasta - $7</p>
+            <button onclick="addToCart('Pasta', 7)">Add</button>
+        </div>
+    </div>
+
+    <div id="cart">
+        <h2>Cart</h2>
+        <ul id="cartItems"></ul>
+        <h3>Total: $<span id="total">0</span></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
