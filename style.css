@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+#menu, #cart {
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+}
+
+.item {
+    margin: 10px 0;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
